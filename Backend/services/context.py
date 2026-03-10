@@ -1,0 +1,1 @@
+#manages additional meal details like mood, notes, and eating environment

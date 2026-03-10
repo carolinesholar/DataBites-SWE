@@ -1,0 +1,1 @@
+// displays searchable history of past food logs for user review and editing.
