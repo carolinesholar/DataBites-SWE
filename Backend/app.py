@@ -5,12 +5,14 @@ from flask_cors import CORS
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 from services.meal_log import meal_log_bp
+from history import history_bp
 
 # create flask app
 app = Flask(__name__)
 CORS(app)
 
 app.register_blueprint(meal_log_bp)
+app.register_blueprint(history_bp)
 
 # path to our database file
 DATABASE = "../DataBase/databites.db"
