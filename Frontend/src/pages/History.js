@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "http://127.0.0.1:5000";
 
 const MEAL_TYPES = ["breakfast", "lunch", "dinner", "snack", "other"];
 const MOODS      = ["happy", "stressed", "tired", "neutral", "sad", "excited"];
